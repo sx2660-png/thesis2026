@@ -28,10 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll", "~> 3.10"
 
   spec.add_development_dependency "github-pages", "~> 232"
-  # Needed to change to use version specified in the Gemfile so that we can use local paths with "remote_theme"
-  # https://github.com/benbalter/jekyll-remote-theme/pull/120
-  # gem "jekyll-remote-theme", github: "benbalter/jekyll-remote-theme", ref: "048c7ec68ac6205aa684a3a72d4f02a5b0b4916d"
-  spec.add_development_dependency "jekyll-remote-theme", "~> 0.4.3"
+  # Keep jekyll-remote-theme pinned in Gemfile to test local-path support (benbalter/jekyll-remote-theme #120).
 
   # Others unrelated to GH pages
   spec.add_development_dependency "jekyll-livereload", "~> 0.2.2"

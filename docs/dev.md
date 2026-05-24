@@ -64,16 +64,11 @@ from the `Gemfile` and generates the lockfile during install.
 
 ### Build the docs using the remote theme
 
-This method is meant to replicate how GitHub Pages builds the "docs" folder for
-[https://carlosperate.github.io/jekyll-theme-rtd](https://carlosperate.github.io/jekyll-theme-rtd).
+This method replicates how GitHub Pages builds the `docs` folder for the
+[https://carlosperate.github.io/jekyll-theme-rtd](https://carlosperate.github.io/jekyll-theme-rtd) site.
 
-There are two main differences with this method:
-
-1. The root directory is the "docs" folder instead of the project root
-  directory, so the navigation hierarchy is different.
-2. This method uses the `remote_theme` Jekyll plugin, so it uses the files
-  currently pushed and available in the GitHub repository `main` branch,
-  not the local files from your machine.
+It uses the `remote_theme` Jekyll plugin, so fetches the files directly from
+the GitHub repository `main` branch, not the local files from your machine.
 
 To do this, we add the `-w /srv/jekyll/docs` to the docker command:
 
@@ -81,7 +76,8 @@ To do this, we add the `-w /srv/jekyll/docs` to the docker command:
 $ docker run --rm -p 4000:4000 -p 35729:35729 -v $(pwd):/srv/jekyll -w /srv/jekyll/docs jekyll-theme-rtd
 ```
 
-And, as before, the website is served at [http://localhost:4000](http://localhost:4000).
+In this mode, the generated site is written to `docs/_site`.
+As before, the website is served at [http://localhost:4000](http://localhost:4000).
 
 ## 🐛 Debug Config
 

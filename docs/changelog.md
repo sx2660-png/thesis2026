@@ -6,6 +6,12 @@ nav_order: 5
 
 # Changelog
 
+## v1.4.1 (unreleased)
+
+- Dev ux improvement: Improves docker gem caching for faster local builds.
+- Dex ux improvement: Uses remote-theme from GH (adds relative paths for local
+  themes), so local builds have the same page structure as the GH pages build.
+
 ## v1.4.0 (2026-04-07)
 
 - Add Mermaid diagram rendering.
