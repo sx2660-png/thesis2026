@@ -10,7 +10,7 @@ nav_order: 4
 
 Well, you don't knew to know all of this!
 For a quick walkthrough to get your docs up an running with this theme see the
-[Quick Start Guide](quickstart.html).
+[Quick Start Guide](quickstart.md).
 
 If you are interested to know more about all this continue reading.
 

@@ -45,18 +45,18 @@ Features:
 
 ## What Can You Find Around Here
 
-- Check out the [Quick Start Guide](https://carlosperate.github.io/jekyll-theme-rtd/quickstart.html)
+- Check out the [Quick Start Guide](quickstart.md)
   to get up and running.
 - If some of the terms thrown around here don't make a lot of sense, check out
-  the [What is All This? (FAQs)](https://carlosperate.github.io/jekyll-theme-rtd/faqs.html) page.
+  the [What is All This? (FAQs)](faqs.md) page.
 - To find out more about all the theme available options see the
-  [Theme Configuration](https://carlosperate.github.io/jekyll-theme-rtd/configuration/configyml.html)
-  and the [Pages Configuration](https://carlosperate.github.io/jekyll-theme-rtd/configuration/frontmatter.html)
+  [Theme Configuration](configuration/configyml.md)
+  and the [Pages Configuration](configuration/frontmatter.md)
   pages.
 - The Demo Pages contain generic content to showcase how the standard Markdown
-  and [additional features](https://carlosperate.github.io/jekyll-theme-rtd/configuration/markdown-extra.html)
+  and [additional features](configuration/markdown-extra.md)
   are rendered with this theme.
-- The [Debug Config](https://carlosperate.github.io/jekyll-theme-rtd/configuration/debug.html)
+- The [Debug Config](configuration/debug.md)
   page documents a utility file you can copy into your site to inspect every
   Jekyll & Liquid variable at build time.
 

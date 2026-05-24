@@ -94,12 +94,12 @@ Colour Variants:
 [Danger](#){: .btn .btn-danger }
 ```
 
-[Default](#color-variants){: .btn }
-[Neutral](#color-variants){: .btn .btn-neutral }
-[Info](#color-variants){: .btn .btn-info }
-[Success](#color-variants){: .btn .btn-success }
-[Warning](#color-variants){: .btn .btn-warning }
-[Danger](#color-variants){: .btn .btn-danger }
+[Default](#button-variants){: .btn }
+[Neutral](#button-variants){: .btn .btn-neutral }
+[Info](#button-variants){: .btn .btn-info }
+[Success](#button-variants){: .btn .btn-success }
+[Warning](#button-variants){: .btn .btn-warning }
+[Danger](#button-variants){: .btn .btn-danger }
 
 For smaller buttons add `.btn-small`:
 
@@ -108,8 +108,8 @@ For smaller buttons add `.btn-small`:
 [Small info](#){: .btn .btn-info .btn-small }
 ```
 
-[Small button](#small-buttons){: .btn .btn-small }
-[Small info](#small-buttons){: .btn .btn-info .btn-small }
+[Small button](#button-variants){: .btn .btn-small }
+[Small info](#button-variants){: .btn .btn-info .btn-small }
 
 `.btn-link` renders a button with the appearance of a plain link:
 
@@ -117,7 +117,7 @@ For smaller buttons add `.btn-small`:
 [Link button](#){: .btn .btn-link }
 ```
 
-[Link button](#){: .btn .btn-link }
+[Link button](#button-variants){: .btn .btn-link }
 
 ## Labels
 
@@ -189,4 +189,4 @@ Wrapping in `*...*` gives Kramdown an `<em>` element to attach the attribute:
 ### My Feature *New*{: .label .label-green }
 ```
 
-### My Feature *New*{: .label .label-green }
+> ### My Feature *New*{: .label .label-green }

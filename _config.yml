@@ -2,13 +2,14 @@ title: Read The Docs Jekyll Theme
 description: Port of the Read the Docs theme to Jekyll to use with GitHub Pages.
 exclude:
   - tests/
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
 
 # Configuring Jekyll to build the docs site from the `docs/` directory
 # while loading the local theme from the repo root
 source: docs/
 destination: ./_site
-# Build docs from `docs/` while loading the local theme from repo root.
-plugins: [jekyll-remote-theme]
 remote_theme: "./"
 
 # Theme settings

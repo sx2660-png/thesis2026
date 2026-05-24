@@ -14,7 +14,7 @@ Text can be **bold**, _italic_, ~~strikethrough~~, ***bold and italic***, or ~~*
 
 Inline code `looks like this`.
 
-[Link to another page](../quickstart.html).
+[Link to another page](../quickstart.md).
 
 There should be whitespace between this paragraph and the one below.
 
@@ -235,7 +235,7 @@ There's a horizontal rule below this.
 
 #### Mermaid Diagrams 16 - 2.2.1
 
-[Mermaid diagrams (more info here)](../configuration/mermaid-diagrams.html) are rendered from code blocks with language `mermaid`:
+[Mermaid diagrams (more info here)](../configuration/mermaid-diagrams.md) are rendered from code blocks with language `mermaid`:
 
 ```mermaid
 sequenceDiagram
