@@ -1,7 +1,7 @@
 title: Read The Docs Jekyll Theme
 description: Port of the Read the Docs theme to Jekyll to use with GitHub Pages.
 plugins: [jekyll-remote-theme, jekyll-relative-links]
-remote_theme: carlosperate/jekyll-theme-rtd
+remote_theme: carlosperate/jekyll-theme-rtd@v1.4.0
 
 # Theme settings docs:
 # https://carlosperate.github.io/jekyll-theme-rtd/configuration/configyml.html
