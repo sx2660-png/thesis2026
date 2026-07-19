@@ -1,5 +1,6 @@
 ---
 layout: default
+<<<<<<< HEAD
 nav_exclude: true
 ---
 
@@ -85,3 +86,35 @@ labels, and any known issues are listed with the
 label.
 
 Contributions are very welcomed!
+=======
+title: Trading Brain
+nav_order: 1
+description: A thesis project about human-in-the-loop AI decision support for Guangdong electricity trading.
+---
+
+# Trading Brain
+
+Trading Brain is a thesis project exploring how an AI assistant can support the cognitive work of electricity traders.
+
+The project focuses on the day-ahead declaration moment in Guangdong electricity trading. Before submission, a trader may need to decide whether an existing automated strategy can continue, should be recalculated, or should pause for human review. Trading Brain is designed as a risk-warning and evidence-review layer around that decision.
+
+It does not aim to replace the trader or execute trades autonomously. Instead, it asks how a system can help a trader notice unusual conditions, understand why a warning appeared, judge whether the evidence is relevant, and make a responsible intervention decision.
+
+## Project path
+
+The site follows the development of the project:
+
+1. [Problem & Context](problem-and-context.md): the industry setting, users, and research question.
+2. [Plan](plan.md): the design goals, scope, hypotheses, and development plan.
+3. [Research](research.md): the market context, user research, and theoretical grounding.
+4. [Ideation](ideation.md): the alternative concepts and the direction selected for prototyping.
+5. [Prototype](prototype.md): the current workflow, interface ideas, and limitations.
+6. [Pitch](pitch/index.md): the mid-term presentation and the developing first-semester pitch.
+7. [Process](process/index.md): updates, meetings, feedback, and reflections.
+
+## Current direction
+
+The current design direction is an alert-first human review interface. It brings together a short risk explanation, affected trading periods, evidence quality, workflow status, and a clear path for human confirmation or override.
+
+The project is still being developed. The prototype is used to test the design assumptions, not to claim that the system can make reliable trading decisions without human responsibility.
+>>>>>>> 3ca43c7 (Add documentation and process records for Trading Brain project)

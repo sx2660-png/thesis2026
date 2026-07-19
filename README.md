@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Read The Docs Theme for Jekyll and GitHub Pages
 
 Port of the Read the Docs theme to Jekyll that can be used with GitHub Pages.
@@ -85,3 +86,22 @@ The theme modifications to port it to Jekyll can be seen
 [in this diff](https://github.com/carlosperate/jekyll-theme-rtd/compare/dddce9f13fde24c03aee4533158c43091120d47e...main),
 and this project is also released under the
 [BSD 2-Clause "Simplified" License](LICENSE).
+=======
+# Trading Brain Thesis
+
+Trading Brain is a thesis project exploring human-in-the-loop AI decision support for Guangdong day-ahead electricity trading.
+
+The project asks how an AI assistant can help traders notice abnormal market conditions, inspect the evidence behind a warning, and decide whether to continue automation, recalculate a strategy, or pause for human review.
+
+The project website is built with Jekyll and GitHub Pages. Its public documentation is in [`docs/`](docs/), organised around the project process:
+
+- [Problem & Context](docs/problem-and-context.md)
+- [Plan](docs/plan.md)
+- [Research](docs/research.md)
+- [Ideation](docs/ideation.md)
+- [Prototype](docs/prototype.md)
+- [Pitch](docs/pitch/index.md)
+- [Process](docs/process/index.md)
+
+The website presents a curated English version of the project. Detailed working notes, meeting records, and source materials remain in the private research archive.
+>>>>>>> 3ca43c7 (Add documentation and process records for Trading Brain project)
