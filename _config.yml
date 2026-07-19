@@ -1,59 +1,18 @@
-<<<<<<< HEAD
-title: Read The Docs Jekyll Theme
-description: Port of the Read the Docs theme to Jekyll to use with GitHub Pages.
-=======
 title: Trading Brain Thesis
 description: A thesis project on human-in-the-loop AI decision support for electricity trading.
->>>>>>> 3ca43c7 (Add documentation and process records for Trading Brain project)
 exclude:
   - tests/
 plugins:
   - jekyll-remote-theme
   - jekyll-relative-links
-
-# Configuring Jekyll to build the docs site from the `docs/` directory
-# while loading the local theme from the repo root
 source: docs/
 destination: ./_site
 remote_theme: "./"
-
-# Theme settings
-<<<<<<< HEAD
-site_author: Carlos Pereira Atencio
-# lang: en
-# locale: en_US
-repo_url: 'https://github.com/carlosperate/jekyll-theme-rtd'
-# edit_on_github: true
-# github_branch: main
-# logo: docs/assets/img/jekyll-rtd-logo-250px.jpg
-# favicon: docs/assets/img/favicon/favicon.ico
-sticky_navigation: true
-# nav_external_links:
-#   - title: Jekyll RTD Theme on GitHub
-#     url: 'https://github.com/carlosperate/jekyll-theme-rtd'
-#   - section: Links
-#   - title: Jekyll RTD Theme on GitHub I
-#     url: 'https://github.com/carlosperate/jekyll-theme-rtd'
-=======
 site_author: Ashley
-# lang: en
-# locale: en_US
-# Add the thesis repository URL here when the repository is available.
-# edit_on_github: false
-# github_branch: main
-# favicon: assets/img/favicon.ico
+lang: en
+locale: en_US
+edit_on_github: false
 sticky_navigation: true
->>>>>>> 3ca43c7 (Add documentation and process records for Trading Brain project)
 prev_next_buttons_location: both
 search_enabled: true
-# hljs_style: atom-one-dark
 hljs_languages: [ruby, python, javascript, bash, yaml, markdown]
-<<<<<<< HEAD
-# admonitions: true
-# mermaid: true
-# display_version: 1.4.0
-# social_image: docs/assets/img/jekyll-rtd-social-media.jpg
-# social_image_alt: "Social media card image for the Jekyll RTD theme, showing the logo and project title."
-# fediverse: "@carlosperate@mastodon.social"
-=======
->>>>>>> 3ca43c7 (Add documentation and process records for Trading Brain project)

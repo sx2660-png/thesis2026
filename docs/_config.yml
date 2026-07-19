@@ -8,16 +8,9 @@ lang: en
 locale: en_US
 edit_on_github: false
 
-favicon: assets/img/favicon/favicon.ico
 sticky_navigation: true
 prev_next_buttons_location: bottom
 search_enabled: true
-hljs_style: github
 hljs_languages: [ruby, python, javascript, bash, yaml, markdown]
 admonitions: true
 mermaid: true
-
-display_version: 1.4.0
-social_image: assets/img/jekyll-rtd-social-media.jpg
-social_image_alt: "Social media card image for the Jekyll RTD theme, showing the logo and project title."
-fediverse: "@carlosperate@mastodon.social"
