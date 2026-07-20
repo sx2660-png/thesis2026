@@ -20,8 +20,9 @@ It does not aim to replace the trader or execute trades autonomously. Instead, i
 3. [Research](research.md)
 4. [Ideation](ideation.md)
 5. [Prototype](prototype.md)
-6. [Pitch](pitch/index.md)
-7. [Process](process/index.md)
+6. [企业对接说明](enterprise-integration.md)
+7. [Pitch](pitch/index.md)
+8. [Process](process/index.md)
 
 ## Current direction
 

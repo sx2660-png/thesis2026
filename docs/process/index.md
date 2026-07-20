@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Process
-nav_order: 8
+nav_order: 9
 description: A record of the decisions, feedback, and development steps behind the thesis.
 ---
 

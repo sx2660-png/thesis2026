@@ -45,3 +45,7 @@ The enterprise prediction, strategy, and execution agents may replace the curren
 ## Current limitations and next tests
 
 The current prototype still needs better time-stamped and Guangdong-specific evidence, confirmation of enterprise API contracts, and testing with domain participants. Future testing should ask whether users can explain why an alert appeared, identify relevant evidence, choose an appropriate intervention, and notice when the system is uncertain or wrong.
+
+## Enterprise field reference
+
+企业合作方可以查看[每日风险简报企业对接说明](enterprise-integration.md)，其中包含在线调用方式、前端展示字段、状态解释、证据时间、交易员反馈和失败重试规则。
